@@ -5,8 +5,7 @@ import grpc
 
 from datetime import datetime
 
-from ndk import sdk_service_pb2
-from ndk import sdk_service_pb2_grpc
+from ndk import sdk_service_pb2, sdk_service_pb2_grpc
 
 import logging
 from logging.handlers import RotatingFileHandler
